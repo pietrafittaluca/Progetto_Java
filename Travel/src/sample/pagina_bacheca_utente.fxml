@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_pagina_bacheca_utente">
+   <children>
+      <TableView fx:id="id_table" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="col_nome_offerta" prefWidth="271.20001220703125" text="Nome Offerta" />
+            <TableColumn fx:id="col_citta" prefWidth="103.20001220703125" text="Città" />
+            <TableColumn fx:id="col_tipo" prefWidth="147.5999755859375" text="Tipo" />
+            <TableColumn fx:id="col_elimina" prefWidth="79.20001220703125" text="ELIMINA" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

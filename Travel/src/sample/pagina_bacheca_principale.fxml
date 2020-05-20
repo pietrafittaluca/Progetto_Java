@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_pagina_bacheca_principale">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ToolBar layoutX="148.0" layoutY="64.0" prefHeight="43.0" prefWidth="424.0">
+               <items>
+                  <Label text="Umore" />
+                  <ChoiceBox fx:id="choice_btn_umore" prefHeight="26.0" prefWidth="100.0" />
+                  <Label text="Città" />
+                  <ChoiceBox fx:id="choice_btn_citta" prefHeight="26.0" prefWidth="100.0" />
+                  <Label text="Tipo" />
+                  <ChoiceBox fx:id="choice_btn_tipo" prefHeight="26.0" prefWidth="100.0" />
+               </items>
+            </ToolBar>
+            <Button fx:id="btn_cerca" layoutX="332.0" layoutY="160.0" mnemonicParsing="false" onAction="#btn_cerca_Action" text="CERCA" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <ToolBar layoutX="39.0" layoutY="107.0" prefHeight="40.0" prefWidth="641.0">
+               <items>
+                  <Label text="Prezzo" />
+                  <ChoiceBox fx:id="choice_btn_prezzo" prefHeight="26.0" prefWidth="80.0" />
+                  <Label text="N. Persone" />
+                  <ChoiceBox fx:id="choice_btn_npersone" prefHeight="26.0" prefWidth="80.0" />
+                  <Label text="Data Inizio" />
+                  <DatePicker fx:id="datepicker_btn_datainizio" prefHeight="26.0" prefWidth="100.0" />
+                  <Label text="Data Fine" />
+                  <DatePicker fx:id="datepicker_btn_datafine" prefHeight="26.0" prefWidth="100.0" />
+               </items>
+            </ToolBar>
+            <Button fx:id="btn_bacheca_utente" layoutX="602.0" layoutY="73.0" mnemonicParsing="false" onAction="#btn_bacheca_utente_Action" text="Bacheca Utente" textFill="#03bd03">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="id_label" layoutX="276.0" layoutY="32.0" text="Come ti senti e cosa desideri?" textFill="#453adf">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_logout" layoutX="626.0" layoutY="28.0" mnemonicParsing="false" onAction="#btn_logout_Action" text="LogOut" textFill="#fa0505">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <TableView fx:id="id_table" prefHeight="200.0" prefWidth="693.0" BorderPane.alignment="CENTER">
+        <columns>
+            <TableColumn fx:id="col_nome_offerta" minWidth="0.0" prefWidth="92.20001375675201" text="Nome Offerta" />
+            <TableColumn fx:id="col_citta" minWidth="0.0" prefWidth="59.800010681152344" text="Città" />
+            <TableColumn fx:id="col_tipo" minWidth="0.0" prefWidth="69.79998779296875" text="Tipo" />
+            <TableColumn fx:id="col_molto_positivo" minWidth="0.0" prefWidth="92.0" text="Molto Positivo" />
+            <TableColumn fx:id="col_positivo" minWidth="0.0" prefWidth="61.5999755859375" text="Positivo" />
+            <TableColumn fx:id="col_neutrale" minWidth="0.0" prefWidth="63.4000244140625" text="Neutrale" />
+            <TableColumn fx:id="col_negativo" minWidth="0.0" prefWidth="68.0" text="Negativo" />
+            <TableColumn fx:id="col_molto_negativo" minWidth="0.0" prefWidth="101.40008544921875" text="Molto Negativo" />
+            <TableColumn fx:id="col_link" minWidth="0.0" prefWidth="47.79998779296875" text="LINK" />
+            <TableColumn fx:id="col_salva" minWidth="0.0" prefWidth="58.800048828125" text="SALVA" />
+
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
