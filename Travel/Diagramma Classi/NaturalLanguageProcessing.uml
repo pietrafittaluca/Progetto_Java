@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>NaturalLanguageProcessing</OriginalElement>
+  <nodes>
+    <node x="18.35546875" y="254.95703125">NaturalLanguageProcessing.SentimentAnalyzer</node>
+    <node x="84.5" y="0.0">NaturalLanguageProcessing.SentimentClassification</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="NaturalLanguageProcessing.SentimentAnalyzer" target="NaturalLanguageProcessing.SentimentAnalyzer">
+      <point x="0.0" y="89.5" />
+      <point x="203.7890625" y="453.95703125" />
+      <point x="3.2890625" y="453.95703125" />
+      <point x="3.2890625" y="344.45703125" />
+      <point x="-180.5" y="-0.0" />
+    </edge>
+    <edge source="NaturalLanguageProcessing.SentimentAnalyzer" target="NaturalLanguageProcessing.SentimentClassification">
+      <point x="-120.33333333333331" y="-89.5" />
+      <point x="80.16666666666669" y="202.0" />
+      <point x="123.16666666666667" y="202.0" />
+      <point x="-77.33333333333333" y="88.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6080760095011877" x="727.306640625" y="286.705078125" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

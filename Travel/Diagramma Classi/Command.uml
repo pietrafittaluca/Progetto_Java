@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>sample.Pattern.Command</OriginalElement>
+  <nodes>
+    <node x="238.0" y="106.0">sample.Pattern.Command.Btn_annulla</node>
+    <node x="20.0" y="190.5">sample.Pattern.Command.Invoker</node>
+    <node x="80.5" y="0.0">sample.Pattern.Command.Command</node>
+    <node x="343.75" y="0.0">sample.Pattern.Command.Receiver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sample.Pattern.Command.Btn_annulla" target="sample.Pattern.Command.Receiver">
+      <point x="95.75" y="-125.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="sample.Pattern.Command.Invoker" target="sample.Pattern.Command.Invoker">
+      <point x="0.0" y="40.5" />
+      <point x="109.0" y="291.5" />
+      <point x="0.0" y="291.5" />
+      <point x="0.0" y="231.0" />
+      <point x="-89.0" y="-0.0" />
+    </edge>
+    <edge source="sample.Pattern.Command.Btn_annulla" target="sample.Pattern.Command.Command">
+      <point x="-95.75" y="-125.0" />
+      <point x="333.75" y="81.0" />
+      <point x="202.16666666666663" y="81.0" />
+      <point x="48.66666666666663" y="28.0" />
+    </edge>
+    <edge source="sample.Pattern.Command.Invoker" target="sample.Pattern.Command.Command">
+      <point x="44.5" y="-40.5" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="sample.Pattern.Command.Btn_annulla" target="sample.Pattern.Command.Btn_annulla">
+      <point x="0.0" y="125.0" />
+      <point x="429.5" y="376.0" />
+      <point x="218.0" y="376.0" />
+      <point x="218.0" y="231.0" />
+      <point x="-191.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7629482071713147" x="293.0" y="231.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

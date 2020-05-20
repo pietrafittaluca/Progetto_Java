@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>WebScraping.Page.TablePage.ListTablePage</OriginalElement>
+  <nodes>
+    <node x="20.0" y="130.0">WebScraping.Page.TablePage.ListTablePage.ListTableReviewInterestPage</node>
+    <node x="506.0" y="142.0">WebScraping.Page.TablePage.ListTablePage.ListTableInterestPage</node>
+    <node x="339.5" y="0.0">WebScraping.Page.TablePage.ListTablePage.ListTablePage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="WebScraping.Page.TablePage.ListTablePage.ListTableInterestPage" target="WebScraping.Page.TablePage.ListTablePage.ListTablePage">
+      <point x="0.0" y="-77.0" />
+      <point x="647.0" y="105.0" />
+      <point x="497.75" y="105.0" />
+      <point x="52.75" y="40.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.ListTablePage.ListTableInterestPage" target="WebScraping.Page.TablePage.ListTablePage.ListTableInterestPage">
+      <point x="0.0" y="77.0" />
+      <point x="647.0" y="316.0" />
+      <point x="486.0" y="316.0" />
+      <point x="486.0" y="219.0" />
+      <point x="-141.0" y="-0.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.ListTablePage.ListTableReviewInterestPage" target="WebScraping.Page.TablePage.ListTablePage.ListTableReviewInterestPage">
+      <point x="0.0" y="89.0" />
+      <point x="243.0" y="328.0" />
+      <point x="0.0" y="328.0" />
+      <point x="0.0" y="219.0" />
+      <point x="-223.0" y="-0.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.ListTablePage.ListTableReviewInterestPage" target="WebScraping.Page.TablePage.ListTablePage.ListTablePage">
+      <point x="0.0" y="-89.0" />
+      <point x="243.0" y="105.0" />
+      <point x="392.25" y="105.0" />
+      <point x="-52.75" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="374.0" y="154.0" />
+  <SelectedNodes>
+    <node>WebScraping.Page.TablePage.ListTablePage.ListTablePage</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

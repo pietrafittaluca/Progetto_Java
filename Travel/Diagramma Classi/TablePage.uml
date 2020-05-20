@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>WebScraping.Page.TablePage</OriginalElement>
+  <nodes>
+    <node x="29.133333333333354" y="0.0">WebScraping.Page.TablePage.TablePage</node>
+    <node x="110.21309523809522" y="468.0">WebScraping.Page.TablePage.ListTablePage</node>
+    <node x="48.0" y="334.0">WebScraping.Page.TablePage.Interest</node>
+    <node x="155.6761904761905" y="190.0">WebScraping.Page.TablePage.Review</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="WebScraping.Page.TablePage.Interest" target="WebScraping.Page.TablePage.Interest">
+      <point x="-40.0" y="27.0" />
+      <point x="88.0" y="418.0" />
+      <point x="18.0" y="418.0" />
+      <point x="18.0" y="347.5" />
+      <point x="-80.0" y="-13.5" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.ListTablePage" target="WebScraping.Page.TablePage.Interest">
+      <point x="-85.71428571428572" y="-27.0" />
+      <point x="124.4988095238095" y="448.0" />
+      <point x="114.66666666666666" y="448.0" />
+      <point x="-13.333333333333343" y="27.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.TablePage" target="WebScraping.Page.TablePage.TablePage">
+      <point x="-116.25" y="65.0" />
+      <point x="52.383333333333354" y="150.0" />
+      <point x="9.133333333333354" y="150.0" />
+      <point x="9.133333333333354" y="65.0" />
+      <point x="-139.5" y="-0.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Review" target="WebScraping.Page.TablePage.Review">
+      <point x="-61.71428571428572" y="27.0" />
+      <point x="165.96190476190478" y="264.0" />
+      <point x="135.6761904761905" y="264.0" />
+      <point x="135.6761904761905" y="235.0" />
+      <point x="-72.0" y="18.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Interest" target="WebScraping.Page.TablePage.ListTablePage">
+      <point x="13.333333333333343" y="27.0" />
+      <point x="141.33333333333334" y="448.0" />
+      <point x="153.0702380952381" y="448.0" />
+      <point x="-57.14285714285714" y="-27.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.ListTablePage" target="WebScraping.Page.TablePage.ListTablePage">
+      <point x="0.0" y="27.0" />
+      <point x="210.2130952380952" y="542.0" />
+      <point x="90.21309523809522" y="542.0" />
+      <point x="90.21309523809522" y="495.0" />
+      <point x="-100.0" y="-0.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.ListTablePage" target="WebScraping.Page.TablePage.Review">
+      <point x="57.14285714285714" y="-27.0" />
+      <point x="267.3559523809524" y="448.0" />
+      <point x="287.42857142857144" y="448.0" />
+      <point x="287.42857142857144" y="314.0" />
+      <point x="289.3904761904762" y="314.0" />
+      <point x="61.71428571428572" y="27.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Interest" target="WebScraping.Page.TablePage.Review">
+      <point x="60.00000000000003" y="-27.0" />
+      <point x="188.00000000000003" y="314.0" />
+      <point x="248.24761904761905" y="314.0" />
+      <point x="20.571428571428555" y="27.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Interest" target="WebScraping.Page.TablePage.TablePage">
+      <point x="-19.99999999999997" y="-27.0" />
+      <point x="108.00000000000003" y="314.0" />
+      <point x="105.1761904761905" y="314.0" />
+      <point x="105.1761904761905" y="170.0" />
+      <point x="145.38333333333335" y="170.0" />
+      <point x="-23.25" y="65.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.ListTablePage" target="WebScraping.Page.TablePage.TablePage">
+      <point x="85.71428571428572" y="-27.0" />
+      <point x="295.92738095238093" y="448.0" />
+      <point x="310.1761904761905" y="448.0" />
+      <point x="310.1761904761905" y="170.0" />
+      <point x="284.8833333333333" y="170.0" />
+      <point x="116.25" y="65.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Review" target="WebScraping.Page.TablePage.TablePage">
+      <point x="-36.0" y="-27.0" />
+      <point x="23.25" y="65.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="172.0" y="169.0" />
+  <SelectedNodes>
+    <node>WebScraping.Page.TablePage.Review</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

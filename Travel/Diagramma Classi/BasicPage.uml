@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>WebScraping.Page.BasicPage</OriginalElement>
+  <nodes>
+    <node x="20.0" y="189.0">WebScraping.Page.BasicPage.CityPage</node>
+    <node x="28.333333333333314" y="0.0">WebScraping.Page.BasicPage.Page</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="WebScraping.Page.BasicPage.CityPage" target="WebScraping.Page.BasicPage.CityPage">
+      <point x="0.0" y="113.5" />
+      <point x="151.0" y="436.0" />
+      <point x="0.0" y="436.0" />
+      <point x="0.0" y="302.5" />
+      <point x="-131.0" y="-0.0" />
+    </edge>
+    <edge source="WebScraping.Page.BasicPage.Page" target="WebScraping.Page.BasicPage.Page">
+      <point x="-61.33333333333334" y="64.5" />
+      <point x="58.99999999999997" y="149.0" />
+      <point x="8.333333333333314" y="149.0" />
+      <point x="8.333333333333314" y="64.5" />
+      <point x="-92.0" y="-0.0" />
+    </edge>
+    <edge source="WebScraping.Page.BasicPage.CityPage" target="WebScraping.Page.BasicPage.Page">
+      <point x="65.5" y="-113.5" />
+      <point x="216.5" y="169.0" />
+      <point x="181.66666666666666" y="169.0" />
+      <point x="61.33333333333334" y="64.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8990610328638498" x="131.0" y="203.0" />
+  <SelectedNodes>
+    <node>WebScraping.Page.BasicPage.Page</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

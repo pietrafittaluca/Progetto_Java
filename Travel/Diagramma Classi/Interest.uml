@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>WebScraping.Page.TablePage.Interest</OriginalElement>
+  <nodes>
+    <node x="30.0" y="306.0">WebScraping.Page.TablePage.Interest.TableRestaurantPage</node>
+    <node x="473.13194444444446" y="0.0">WebScraping.Page.TablePage.Interest.TableInterestPage</node>
+    <node x="582.389880952381" y="530.0">WebScraping.Page.TablePage.Interest.TableAttractionPage</node>
+    <node x="511.0" y="306.0">WebScraping.Page.TablePage.Interest.TableHotelPage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="WebScraping.Page.TablePage.Interest.TableRestaurantPage" target="WebScraping.Page.TablePage.Interest.TableInterestPage">
+      <point x="-107.75" y="-77.0" />
+      <point x="137.75" y="266.0" />
+      <point x="556.0605158730159" y="266.0" />
+      <point x="-110.57142857142856" y="113.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Interest.TableAttractionPage" target="WebScraping.Page.TablePage.Interest.TableInterestPage">
+      <point x="0.0" y="-77.0" />
+      <point x="795.389880952381" y="510.0" />
+      <point x="902.5" y="510.0" />
+      <point x="902.5" y="276.0" />
+      <point x="777.203373015873" y="276.0" />
+      <point x="110.57142857142856" y="113.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Interest.TableHotelPage" target="WebScraping.Page.TablePage.Interest.TableInterestPage">
+      <point x="-95.25" y="-77.0" />
+      <point x="606.25" y="286.0" />
+      <point x="666.6319444444445" y="286.0" />
+      <point x="0.0" y="113.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Interest.TableRestaurantPage" target="WebScraping.Page.TablePage.Interest.TableRestaurantPage">
+      <point x="-143.66666666666663" y="77.0" />
+      <point x="101.83333333333337" y="480.0" />
+      <point x="10.0" y="480.0" />
+      <point x="10.0" y="421.5" />
+      <point x="-215.5" y="38.5" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Interest.TableHotelPage" target="WebScraping.Page.TablePage.Interest.TableHotelPage">
+      <point x="95.25" y="77.0" />
+      <point x="796.75" y="490.0" />
+      <point x="481.0" y="490.0" />
+      <point x="481.0" y="344.5" />
+      <point x="-190.5" y="-38.5" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Interest.TableAttractionPage" target="WebScraping.Page.TablePage.Interest.TableRestaurantPage">
+      <point x="-142.0" y="-77.0" />
+      <point x="653.389880952381" y="510.0" />
+      <point x="389.16666666666663" y="510.0" />
+      <point x="143.66666666666663" y="77.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage.Interest.TableInterestPage" target="WebScraping.Page.TablePage.Interest.TableInterestPage">
+      <point x="-165.85714285714286" y="113.0" />
+      <point x="500.77480158730157" y="246.0" />
+      <point x="453.13194444444446" y="246.0" />
+      <point x="453.13194444444446" y="113.0" />
+      <point x="-193.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6941448382126348" x="639.0" y="215.0" />
+  <SelectedNodes>
+    <node>WebScraping.Page.TablePage.Interest.TableHotelPage</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

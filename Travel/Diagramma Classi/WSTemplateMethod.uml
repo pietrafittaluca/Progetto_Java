@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>WebScraping.WSTemplateMethod</OriginalElement>
+  <nodes>
+    <node x="350.0" y="59.5">WebScraping.WSTemplateMethod.WSFacade</node>
+    <node x="20.0" y="0.0">WebScraping.WSTemplateMethod.WebScrapingTemplate</node>
+    <node x="248.33333333333326" y="392.0">WebScraping.WSTemplateMethod.WebScrapingTripAdvisor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="WebScraping.WSTemplateMethod.WebScrapingTemplate" target="WebScraping.WSTemplateMethod.WebScrapingTemplate">
+      <point x="-96.66666666666669" y="161.0" />
+      <point x="68.33333333333331" y="342.0" />
+      <point x="0.0" y="342.0" />
+      <point x="0.0" y="161.0" />
+      <point x="-145.0" y="-0.0" />
+    </edge>
+    <edge source="WebScraping.WSTemplateMethod.WebScrapingTripAdvisor" target="WebScraping.WSTemplateMethod.WebScrapingTemplate">
+      <point x="-40.49999999999994" y="-77.5" />
+      <point x="369.8333333333333" y="362.0" />
+      <point x="261.6666666666667" y="362.0" />
+      <point x="96.66666666666669" y="161.0" />
+    </edge>
+    <edge source="WebScraping.WSTemplateMethod.WebScrapingTripAdvisor" target="WebScraping.WSTemplateMethod.WSFacade">
+      <point x="121.50000000000006" y="-77.5" />
+      <point x="531.8333333333333" y="372.0" />
+      <point x="698.3333333333334" y="372.0" />
+      <point x="139.33333333333337" y="101.5" />
+    </edge>
+    <edge source="WebScraping.WSTemplateMethod.WSFacade" target="WebScraping.WSTemplateMethod.WSFacade">
+      <point x="-139.33333333333334" y="101.5" />
+      <point x="419.66666666666663" y="282.5" />
+      <point x="330.0" y="282.5" />
+      <point x="330.0" y="161.0" />
+      <point x="-209.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.70018281535649" x="393.5" y="263.5" />
+  <SelectedNodes>
+    <node>WebScraping.WSTemplateMethod.WSFacade</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

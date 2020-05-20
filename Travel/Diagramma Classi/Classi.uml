@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>sample.Classi</OriginalElement>
+  <nodes>
+    <node x="0.0" y="902.0">sample.Classi.Model_table_principale</node>
+    <node x="0.0" y="536.0">sample.Classi.Model_contenuto_principale</node>
+    <node x="0.0" y="0.0">sample.Classi.Database</node>
+    <node x="0.0" y="1268.0">sample.Classi.Model_contenuto_utente</node>
+    <node x="666.0" y="902.0">sample.Classi.Model_table_utente</node>
+    <node x="422.0" y="1268.0">sample.Classi.ScheduledTask</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.5937116564417177" x="734.4999999999998" y="632.0" />
+  <SelectedNodes>
+    <node>sample.Classi.Model_contenuto_principale</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

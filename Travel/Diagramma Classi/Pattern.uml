@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>sample.Pattern</OriginalElement>
+  <nodes>
+    <node x="50.0" y="0.0">sample.Pattern.Factory</node>
+    <node x="30.0" y="155.0">sample.Pattern.Command</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sample.Pattern.Factory" target="sample.Pattern.Factory">
+      <point x="-57.0" y="27.0" />
+      <point x="69.0" y="74.0" />
+      <point x="30.0" y="74.0" />
+      <point x="30.0" y="47.25" />
+      <point x="-76.0" y="20.25" />
+    </edge>
+    <edge source="sample.Pattern.Command" target="sample.Pattern.Command">
+      <point x="38.0" y="27.0" />
+      <point x="144.0" y="239.0" />
+      <point x="0.0" y="239.0" />
+      <point x="0.0" y="168.5" />
+      <point x="-76.0" y="-13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="174.5" y="27.0" />
+  <SelectedNodes>
+    <node>sample.Pattern.Factory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

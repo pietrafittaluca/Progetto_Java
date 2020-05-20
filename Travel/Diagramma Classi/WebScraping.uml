@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>WebScraping</OriginalElement>
+  <nodes>
+    <node x="40.0" y="0.0">WebScraping.WSInformation</node>
+    <node x="353.2" y="297.5">WebScraping.Page</node>
+    <node x="40.0" y="308.46875">WebScraping.WSTemplateMethod</node>
+    <node x="130.2" y="442.46875">WebScraping.main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="WebScraping.WSTemplateMethod" target="WebScraping.WSTemplateMethod">
+      <point x="-44.8" y="27.0" />
+      <point x="107.2" y="392.46875" />
+      <point x="10.0" y="392.46875" />
+      <point x="10.0" y="335.46875" />
+      <point x="-112.0" y="-0.0" />
+    </edge>
+    <edge source="WebScraping.main" target="WebScraping.WSTemplateMethod">
+      <point x="44.5" y="-28.0" />
+      <point x="263.7" y="422.46875" />
+      <point x="241.59999999999997" y="422.46875" />
+      <point x="89.59999999999997" y="27.0" />
+    </edge>
+    <edge source="WebScraping.WSInformation" target="WebScraping.WSInformation">
+      <point x="82.66666666666669" y="101.5" />
+      <point x="246.66666666666669" y="243.0" />
+      <point x="0.0" y="243.0" />
+      <point x="0.0" y="33.833333333333314" />
+      <point x="-124.0" y="-67.66666666666669" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9054373522458629" x="198.5" y="226.5" />
+  <SelectedNodes>
+    <node>WebScraping.WSInformation</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="40.0" y="149.96875">WebScraping</node>
+    <node x="40.0" y="298.46875">sample</node>
+    <node x="40.0" y="10.96875">NaturalLanguageProcessing</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="NaturalLanguageProcessing" target="NaturalLanguageProcessing">
+      <point x="0.0" y="27.0" />
+      <point x="188.0" y="94.96875" />
+      <point x="10.0" y="94.96875" />
+      <point x="10.0" y="37.96875" />
+      <point x="-148.0" y="-0.0" />
+    </edge>
+    <edge source="WebScraping" target="WebScraping">
+      <point x="-61.333333333333336" y="27.0" />
+      <point x="70.66666666666666" y="223.96875" />
+      <point x="20.0" y="223.96875" />
+      <point x="20.0" y="194.96875" />
+      <point x="-92.0" y="18.0" />
+    </edge>
+    <edge source="sample" target="sample">
+      <point x="-48.0" y="27.0" />
+      <point x="64.0" y="372.46875" />
+      <point x="20.0" y="372.46875" />
+      <point x="20.0" y="343.46875" />
+      <point x="-72.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="148.0" y="221.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

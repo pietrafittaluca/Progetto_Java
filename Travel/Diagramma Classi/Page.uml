@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>WebScraping.Page</OriginalElement>
+  <nodes>
+    <node x="48.0" y="114.0">WebScraping.Page.TablePage</node>
+    <node x="20.0" y="0.0">WebScraping.Page.BasicPage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="WebScraping.Page.BasicPage" target="WebScraping.Page.BasicPage">
+      <point x="-56.0" y="27.0" />
+      <point x="48.0" y="74.0" />
+      <point x="0.0" y="74.0" />
+      <point x="0.0" y="27.0" />
+      <point x="-84.0" y="-0.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage" target="WebScraping.Page.TablePage">
+      <point x="0.0" y="27.0" />
+      <point x="132.0" y="188.0" />
+      <point x="28.0" y="188.0" />
+      <point x="28.0" y="141.0" />
+      <point x="-84.0" y="-0.0" />
+    </edge>
+    <edge source="WebScraping.Page.TablePage" target="WebScraping.Page.BasicPage">
+      <point x="42.0" y="-27.0" />
+      <point x="174.0" y="94.0" />
+      <point x="160.0" y="94.0" />
+      <point x="56.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="79.0" />
+  <SelectedNodes>
+    <node>WebScraping.Page.BasicPage</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
