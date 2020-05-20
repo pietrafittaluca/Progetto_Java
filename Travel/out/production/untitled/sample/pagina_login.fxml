@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_pagina_login">
+    <children>
+        <Label layoutX="272.0" layoutY="36.0" text="Accedi">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="btn_login" layoutX="277.0" layoutY="251.0" mnemonicParsing="false" onAction="#btn_login_Action" text="LogIn" textFill="#2528dd">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+        <Label layoutX="226.0" layoutY="80.0" text="Mail" />
+        <Label layoutX="224.0" layoutY="154.0" text="Password" />
+        <TextField fx:id="field_username" layoutX="226.0" layoutY="97.0" />
+        <PasswordField fx:id="field_login_password" layoutX="225.0" layoutY="171.0" />
+        <Label fx:id="label_status" layoutX="231.0" layoutY="217.0" text="LogIn Status: not logged">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Button fx:id="btn_login_registrati" layoutX="265.0" layoutY="305.0" mnemonicParsing="false" onAction="#btn_login_registrati_Action" text="Registrati">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+    </children>
+    <effect>
+        <ColorAdjust />
+    </effect>
+</Pane>
